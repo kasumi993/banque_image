@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Butler_Light";
+    src: url("font/Butler_Light.otf");
+}
+
+body {
+    background: rgba(199, 198, 196, 0.87);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: padding-box;
+    font-family: "Butler_Light";
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+#introduction {
+    height: 100%;
+    width: 100%;
+}
+
+#upload {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 110%;
+    z-index: 999;
+}
+
+#upload:target {
+    display: inline-block;
+}
